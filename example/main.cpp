@@ -2,7 +2,7 @@
 #include <FastString.h>
 #include <assert.h>
 
-int main()
+int main(void)
 {
     /* define types */
     using string8 = fss::fixed_size_str<7>;
